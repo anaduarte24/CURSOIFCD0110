@@ -1,0 +1,24 @@
+/*body {
+    background-image: url(../img/ccs\ imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}*/
+
+#fondo {
+    background-image: url(../img/ccs\ imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-position: center;
+    z-index: 0;
+}
+
+.titulo {
+    color: azure;
+    tex-shadow: 2px 2px 2px #000;
+    position:relative;
+
+}
