@@ -7,23 +7,47 @@
 h1 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
-#fondo {
-    background-image: url(../img/ccs\ imagen.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height:100vh; /*vh-viewport height*/
-    position: absolute;
-    top: 0;
-    background-position: center;
-    z-index: 0;
+.nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+body {
+background-image: url("../img/pizza.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-position: right top;
+border-radius: 8px;
 }
+
+li {
+    display: inline;
+  }
+  
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
 
 .titulo {
     color: azure;
     tex-shadow: 2px 2px 2px #000;
     position:relative;
 }
+
 #centrado{
     border: 4px;
     width: 60%;
