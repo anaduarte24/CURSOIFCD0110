@@ -1,0 +1,123 @@
+/*body {
+    background-image: url(../img/  ATENCIOOOON
+    background-repeat: no-repeat;
+    background-size: cover
+
+}*/
+
+a {
+    color: hotpink;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* unvisited link */
+
+a:link {
+    color: red;
+}
+
+.links {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.inicio,
+.contacto,
+.oferta {
+    border: 1px solid #ffffff;
+    color: white;
+    padding: 15px;
+}
+
+p {
+    text-align: center;
+    text-shadow: 0, 1em 0, 1em #000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.text-1 {
+    margin-top: 20%;
+}
+
+.text-2 {
+    font-size: 20px;
+}
+
+
+/* visited link */
+
+a:visited {
+    color: green;
+}
+
+
+/* mouse over link */
+
+a:hover {
+    color: hotpink;
+}
+
+
+/* selected link */
+
+a:active {
+    color: blue;
+}
+
+a {
+    text-decoration: nome;
+    box-shadow: 2px 2px #000;
+}
+
+#fondo {
+    background-image: url(../img/ccs\ imagen.jpg);
+    background-repeat: no-repet;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /*vh-viewport height*/
+    position: absolute;
+    top: 0;
+    background-position: center;
+    z-index: 0;
+}
+
+header {
+    position: absolute;
+    text-align: auto;
+    margin: auto;
+    width: 99%
+}
+
+.boton {
+    background-color: rgb(red, green, blue);
+    color: white;
+    border: 2px solid #ffffff;
+    box-shadow: #000000 2px 2px 2px;
+    padding: 15px 2px;
+}
+
+.titulo {
+    color: azure;
+    tex-shadow: 2px 2px 2px #000;
+    position: relative;
+}
+
+#centrado {
+    border: 4px;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
+    text-align: center;
+}
