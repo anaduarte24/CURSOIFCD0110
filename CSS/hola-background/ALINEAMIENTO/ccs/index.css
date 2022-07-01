@@ -1,0 +1,63 @@
+/*body {
+    background-image: url(../img/ccs\ imagen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}*/
+@import url(https://fonts.googleapis.com/css2?family=Mukta:wght@700&display=swap);
+h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.nav {
+    background-color: yellow;
+    list-style-type: none;
+    text-align: center; 
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+  }
+body {
+background-image: url("../img/pizza.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-position: right top;
+border-radius: 8px;
+}
+
+li {
+    display: inline;
+  }
+  
+li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+.titulo {
+    color: azure;
+    tex-shadow: 2px 2px 2px #000;
+    position:relative;
+}
+
+#centrado{
+    border: 4px;
+    width: 60%;
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    color: aliceblue;
+    text-shadow: 2px 2px 2px #000000;
+text-align: center;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
