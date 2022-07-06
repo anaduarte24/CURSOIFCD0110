@@ -117,7 +117,7 @@ iframe {
     align-items: center;
     height: 50vh;
     width: 50vw;
-    border: 3px solid rgb(255, 4, 88);
+    border: 3px solid palevioletred;
     margin: 25vh 25vw 50px 25vw;
 }
 

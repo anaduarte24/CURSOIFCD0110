@@ -1,32 +1,47 @@
-<!DOCTYPEhtml >
-< html lang=" es ">
+<!DOCTYPE html>
+<html lang="es">
 
-    < cabeza>
-        < juego de caracteres meta=" UTF-8 ">
-            < meta http-equiv=" X-UA-Compatible " content=" IE=edge ">
-                < meta name=" viewport " content=" ancho=ancho-del-dispositivo, escala-inicial=1.0 ">
-                    < título> Hola background </ título>
-                    < enlace href=" css/index.css " rel=" hoja de estilo " />
-                </ cabeza>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FavIcon el que se ve en la pestaña del navegador -->
+    <link rel="icon" href="img/promotv144.png">
+    <title>Hola Background</title>
+    <!--Agregamos nuestro CSS-->
+    <link href="index.html" rel="stylesheet" />
+    <!--Agregamos Font Awesome desde un CDN. Tamb ién se puede hacer por @import en CSS-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" rel="stylesheet" />
+</head>
 
-                < cuerpo>
-                    < encabezado>
-                        < navegación>
-                            < a href=" index.html ">
-                                < i class=" fa-solid fa-house "> </ i> Inicio
-                            </ a>
-                            <a href="contacto.html"> _  _ _ _
-                Contacto
-            </ a >
-            < a  href =" oferta.html " >
-                Oferta
-            </ a >
-        </ nav >
-    </ encabezado >
-   
-    < div  class =" imagen_centrada " >
-        < img  src =" img/pizza.jpg " >
-    </ div >
-</ cuerpo >
+<body>
+    <!-- Header. esto se insertará dinámicamente con Javascript -->
+    <header>
+        <!--Etiqueta semántica para añadir un menú de navegación de la página -->
+        <nav>
+            <a href="index.html">
+                <i class="fa-solid fa-house"> </i> Inicio
+            </a>
+            <a href="contacto.html">
+                Contacto.
+            </a>
+            <a href="oferta.html">
+                Oferta.
+            </a>
+            <a href="alineamiento.html">
+                Alineamiento v y h.
+            </a>
+        </nav>
+    </header>
+    <div class="background">
+        <!--
+        Aquí va un fondo en el div que está en posicvión absoluta. 
+        Le damos aquí los estilos para que quede responsive bien.
+    -->
+    </div>
+    <!-- Subtítulo y título en posición relativa-->
+    <h2>Hola Mundo.</h2>
+    <h1>ALINEAMIENTO.</h1>
+</body>
 
-</ html >
+</html>
