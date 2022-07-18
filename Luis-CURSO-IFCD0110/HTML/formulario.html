@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <!--Vamos a crear aquí un formulario web-->
+    <h1>Formualrio</h1>
+    <h2>Introduce los datos</h2>
+    <form>
+        <label for="nombre">Escribe aquí tu nombre:</label><br>
+        <input type="text" value="" id="nombre" name="nombre" size="20"  maxlength="15"><br><br>
+        <label for="apellido">Pon aquí tu apellido:</label><br>* <span style="color:red"><cite>Campo requerido</cite></span><br>
+        <!-- Campo texto obligatorio-->
+        <input type="text" value="" id="apellido" name="apellido" required  size="40"><br><br>
+        <label for="apellido">Pon aquí tu apellido:</label><br>
+        <input type="email" value="" placeholder="ej: tunombre@tuemail.com" id="email" name="email">
+        <br><br><label for="edad">Edad</label><br>
+        <input type="number" min="1" max="1000">
+        <br><br>
+        <br><br><label for="tel">Teléfono</label><br>
+        <input type="tel">
+        <br><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

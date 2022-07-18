@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+    <style>
+        table, tr, td, th{
+            border: 1px solid #000000;
+            border-collapse: collapse;
+            padding: 12px
+        }
+        /* le damos a la tabla todo el ancho del viewport, es decir 100% del ancho de la ventana*/
+        table{
+            width: 100%
+        }
+      
+    </style>
+</head>
+<body>
+    <h1>Ejercicio tabla</h1>
+    <!--
+        Vamos a crear una tabla de 3 filas y 4 columnas.
+    -->
+    <table>
+     <!--
+         Alineamos el texto al centro en la primera fila
+         le damos un fondo de color claro
+     -->
+        <tr style="text-align:center;background-color: honeydew;">
+            <th>
+                Nombre
+            </th>
+            <th> 
+                Apellido
+            </th>
+            <th>
+                Teléfono
+            </th>
+            <th>
+                Email
+            </th>
+        </tr>
+        <tr>
+            <td>Paco</td>
+            <td>Pérez gonzale de la fuente y brea motores de aqui de santiago </td>
+            <td>666555444</td>
+            <td>email@email.com</td>
+        </tr>
+        <tr>
+            <!--
+                Combinar celdas en horizontal
+            -->
+            <td colspan="2">0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <!--
+                Combinar celdas en vertilcal
+            -->
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+            <td rowspan="3">c</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+        </tr>
+        <tr>
+            <td>c</td>
+            <td>c</td>
+            <td>c</td>
+        </tr>
+    </table>
+</body>
+</html>
